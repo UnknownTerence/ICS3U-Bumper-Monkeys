@@ -1,0 +1,144 @@
+/*
+  Dante Sangoi, Terence Nguyen, Daniel Song, Manesh Logathas
+  5/30/2023
+  Stylesheet
+  Responsible for the design of the website
+*/
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  width:100%;
+  overflow-x:hidden;
+  margin:0;
+  background-image:url(images/bg.gif);
+  background-size:cover;
+  background-attachment:fixed;
+}
+#navBar {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:5%;
+  width:100%;
+  height:10%;
+  position:fixed;
+  background-color: rgba(34, 40, 49, 0.8);
+  border-bottom:#1a1e23 solid 5px;
+  z-index:1;
+}
+.link {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-decoration:none;
+  height:50%;
+  width:15%;
+  background-color:rgba(200, 200, 200, 0.5);
+  border:#1a1e23 solid 5px;
+  color:black;
+  font-size:2em;
+  transition:background-color 0.5s;
+}
+a:hover {
+  background-color:rgba(200, 200, 200, 1);
+}
+#header {
+  text-align:center;
+  width:100%;
+  height:70%;
+  color:white;
+  font-size:3em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.sections {
+  width:100%;
+  background-color:rgba(34, 40, 49, 0.8);
+  padding:50 0 50 0;
+  border-top:#1a1e23 solid 5px;
+  border-bottom:#1a1e23 solid 5px;
+}
+.h2 {
+  padding:0;
+  margin:0;
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+h2 {
+  width:20%;
+  border:#1a1e23 solid 5px;
+  text-align:center;
+  padding: 10 0 10 0;
+  font-size:2em;
+  background-color:rgba(200, 200, 200, 0.5);
+}
+
+/* Game Idea and Potential Problems */
+
+.content {
+  position:relative;
+  left:20%;
+  width:60%;
+  border:#1a1e23 solid 5px;
+  padding: 10 10 10 10;
+  font-size:1.5em;
+  background-color:rgba(200, 200, 200, 0.5);
+}
+
+/* Creators */
+
+#avatars {
+  position:relative;
+  width:80%;
+  left:10%;
+  display:flex;
+  justify-content:center;
+  gap:5%;
+}
+#avatars img {
+  width:20%;
+  border:#1a1e23 solid 5px;
+  background-color:#8000ff;
+}
+#names {
+  position:relative;
+  width:80%;
+  left:10%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:5%;
+}
+#names span {
+  width:20%;
+  border:#1a1e23 solid 5px;
+  text-align:center;
+  padding: 10 0 10 0;
+  font-size:2em;
+  background-color:rgba(200, 200, 200, 0.5);
+}
+#job {
+  position:relative;
+  width:80%;
+  left:10%;
+  display:flex;
+  justify-content:center;
+  align-items:top;
+  gap:5%;
+}
+#job span {
+  width:20%;
+  border:#1a1e23 solid 5px;
+  text-align:center;
+  padding: 10 0 10 0;
+  font-size:1.5em;
+  background-color:rgba(200, 200, 200, 0.5);
+}
+
+/* Images for sketches page */
+
+.content img {
+  width:100%;
+  padding:50 0 50 0
+}

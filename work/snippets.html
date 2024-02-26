@@ -1,0 +1,67 @@
+<!--
+Dante Sangoi, Terence Nguyen, Daniel Song, Manesh Logathas
+5/30/2023
+Code Snippets
+This html file is responsible for displaying all the new functions used
+-->
+<html>
+  <head>
+    <title>Code Snippets</title>
+    <link rel="icon" type="images/x-icon" href="../images/MonkeyIcon.png" />
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id=navBar> <!--permanent navigation bar-->
+      <a href="../index.html" class="link">Home</a>
+      <a href="../finalProject/index.html" class="link">Game</a>
+      <a href="../finalProject/help.html" class="link">Help</a>
+      <a href="sketches.html" class="link">Sketches</a>
+      <a href="snippets.html" class="link">Code Snippets</a>
+    </div>
+    <div id=header>
+      <h1>Code Snippets</h1>
+    </div>
+    <div class=sections>
+      <div class=h2>
+        <h2>Snippets!</h2>
+      </div>
+      <div class=content>
+        <img src="../images/globalVar.png">
+        <p>
+          All the game mechanics are global variables because they span across multiple scenes.
+        </p>
+        <img src="../images/bubbleSort.png">
+        <p>
+          This bubble sort function is a parameter with a return value. It sorts the scores from lowest to highest as well as the corresponding names. This is used later in the scoreboard.
+        </p>
+        <img src="../images/mathFunc.png">
+        <p>
+          The Math.abs is considered a function with a parameter and return value. This function is used to find the absolute value of a number. In short, it makes the value of the parameter a positive.
+        </p>
+        <img src="../images/scoreFunc.png">
+        <img src="../images/scoreFunc2.png">
+        <p>
+          The two functions above are identical but differ because one is for player 1 and the other is for player 2. This is a function with parameters and a return value. These functions are responsible for calculating the scores throughout the game.
+        </p>
+        <img src="../images/upperStringFunc.png">
+        <p>
+          The first string function is used to capitalize all the letters of a string inside of an array. This makes it so the names are all capitalized in the scoreboard and hud.
+        </p>
+        <img src="../images/lengthStringFunc.png">
+        <p>
+          This second string function used here is to detect how long the players name is. If the name is over 10, it will tell them to re-enter it.
+        </p>
+        <img src="../images/arrayExample.png">
+        <p>
+          The first array example is used where it detects the absolute velocities of the 2 players right before collision. This allows us to calculate which player is travelling faster right before impact.
+        </p>
+        <img src="../images/arrayExample2.png">
+        <p>
+          The second array example is used inside of the bubble sort. This allows for the ordering from least to greatest to display later in the scoreboard.
+        </p>
+      </div>
+    </div>
+    <br>
+  </body>
+</html>

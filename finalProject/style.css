@@ -1,0 +1,86 @@
+/*
+  Dante Sangoi, Terence Nguyen, Daniel Song, Manesh Logathas
+  5/30/2023
+  Game page styling
+  Responsible for the design of the game website page
+*/
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  width:100%;
+  overflow-x:hidden;
+  background-color:#4d4d4d;
+  text-align:center;
+  margin-top:10%;
+}
+
+@font-face {/*used for the health part of the hud*/
+  font-family: 'bitArcade';
+  src: url('fonts/upheavtt.ttf');
+}
+@font-face {
+  font-family: 'pixel';/*used for the rest of the text*/
+  src: url('fonts/totallyNotUltrakillFont.ttf');
+}
+@font-face {
+  font-family: 'bradhi';/*used for titles*/
+  src: url('fonts/BRADHI.ttf');
+}
+#navBar {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:5%;
+  width:100%;
+  height:10%;
+  position:fixed;
+  background-color: rgba(34, 40, 49, 0.8);
+  border-bottom:#1a1e23 solid 5px;
+  z-index:1;
+  left:0%;
+  top:0%;
+}
+.link {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-decoration:none;
+  height:50%;
+  width:15%;
+  background-color:rgba(200, 200, 200, 0.5);
+  border:#1a1e23 solid 5px;
+  color:black;
+  font-size:2em;
+  transition:background-color 0.5s;
+}
+a:hover {
+  background-color:rgba(200, 200, 200, 1);
+}
+#game-container  {
+  position:fixed;
+  top:50px;
+  width: 1000px;
+  height: 600px;
+  z-index:1;
+}
+
+#game-container input[type=text], select {
+  width: 100%;
+  font-size: 50px;
+  padding: 20px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#nameInput {
+  position:relative;
+  width:18%;
+  text-align:center;
+  left:40%;
+}
+#nameInput2 {
+  position:relative;
+  width:20%;
+  text-align:center;
+  left:40%;
+}
